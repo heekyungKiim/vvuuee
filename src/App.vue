@@ -8,8 +8,7 @@
     <h4 @click="isDetailOpened = true; productNumber = idx ">{{products[idx].title}}</h4>
     <p>{{products[idx].price}}</p>
   </div>
-
-<DetailModal :products='products' :productNumber="productNumber" :isDetailOpened="isDetailOpened"/>
+<DetailModal :products="products" :productNumber="productNumber" :isDetailOpened="isDetailOpened"/>
   
 </template>
 

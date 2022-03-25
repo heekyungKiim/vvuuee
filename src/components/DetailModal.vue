@@ -15,11 +15,11 @@ export default {
     name: "DetailModal",
     props:{
         products: Array,
+        productNumber: Number,
+        isDetailOpened: Boolean
     },
     data(){
         return{
-        productNumber: 0,
-        isDetailOpened: false
         }
     }
 }
